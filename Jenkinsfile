@@ -3,7 +3,9 @@ pipeline {
 
     stages {
         stage("Test") {
+            steps {
                 echo "Hello world..."
+            }
         }
 
          stage("Master only") {
@@ -13,5 +15,4 @@ pipeline {
                         echo "Hello world..."
         }
     }
-
 }
