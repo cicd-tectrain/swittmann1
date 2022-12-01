@@ -12,7 +12,9 @@ pipeline {
             when {
                 branch 'master'
             }
+            steps {
                         echo "Hello world..."
+            }
         }
     }
 }
